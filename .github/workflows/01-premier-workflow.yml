@@ -1,8 +1,8 @@
 name: Premier workflow
 
 on:
-  release:
-    types: [published]
+  issues:
+    types: [opened]
 jobs:
   dire-bonjour:
     runs-on: ubuntu-latest
