@@ -1,8 +1,8 @@
 name: Premier workflow
 
 on:
-  schedule:
-    - cron: '*/5 * * * *' # Se déclenche toutes les 5 minutes
+  release:
+    types: [published]
 jobs:
   dire-bonjour:
     runs-on: ubuntu-latest
