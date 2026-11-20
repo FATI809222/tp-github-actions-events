@@ -20,7 +20,7 @@ jobs:
 
       - name: Generate build report
         run: |
-          echo "Rapport de build" > report.txt
+          echo "Build Report" > report.txt
           echo "Node version: $(node --version)" >> report.txt
           echo "Date: $(date +%F)" >> report.txt
 
