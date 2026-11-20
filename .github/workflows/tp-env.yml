@@ -16,4 +16,4 @@ jobs:
           echo "BUILD_DATE=$(date +%F)" >> $GITHUB_ENV
 
       - name: Print environment variables
-        run: echo "Application $APP_NAME built on $BUILD_DATE"
+        run: echo "Test application $APP_NAME built on $BUILD_DATE"
